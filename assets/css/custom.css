@@ -26,7 +26,33 @@ body{
         font-family: "Poppins";
 }
 
+::selection{
+        background: #ffee58;
+        color:#ff88af;
+}
 
+h1{
+    font-size: 48px;
+    line-height: 120%;
+    margin-top: 150px;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    color: #ff00af;
+    margin-bottom: 32px;
+}
+
+h5{
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
 
 /***********************************
         2.Header
@@ -36,8 +62,24 @@ header{
 
 }
 
-nav{
+header .background-map{
+        background-image: url(../img/mapa.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 75% -100px;
 
+}
+
+header nav{
+        color: #ffffff;
+        background: linear-gradient(120deg, #AC3ECF 0%,#ff00af 100%);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+}
+
+header#hero{
+        color: #ffffff;
+        background: linear-gradient(120deg, #AC3ECF 0%,#ff00af 100%);
 }
 
 #header-logo{
@@ -57,6 +99,9 @@ nav{
 }
 
 #call-to-scroll{
+        color: #ff00af;
+        font-size: 16px;
+        font-weight: 600;
 
 }
 
@@ -68,6 +113,10 @@ a.brand-logo{
 
 #value-proposition a{
         color:#B633BF;
+}
+
+#value-proposition .col{
+        padding:0%;
 }
 
 
@@ -89,7 +138,8 @@ a.brand-logo{
         4.Table of content
 ***********************************/
 
-#table-of-content{
+#table-of-contents{
+        background: #fff6ff;
 
 }
 
@@ -102,6 +152,7 @@ a.brand-logo{
 }
 
 #table-of-contents-content{
+        background: #EEE ;
 
 }
 

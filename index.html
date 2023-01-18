@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;700;900&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -15,48 +15,61 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>UX Unicórnio</title>
 </head>
 <body>
 
   <!-- Header -->
-  <header id="hero">
-    <nav>
-      <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">UX Unicórnio na estrada 2020</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="#">Cidades e Datas</a></li>
-          <li><a href="#">Conteúdo</a></li>
-          <li><a href="#">Depoimentos</a></li>
-          <li><a href="#">Cases de Alunos</a></li>
-          <li><a href="#">Whatsapp</a></li>
-        </ul>
+  <header id="hero" >
+    <div class="background-map">
+      <nav>
+        <div class="nav-wrapper container">
+          <a href="#" class="brand-logo">UX Unicórnio na estrada 2020</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Cidades e Datas</a></li>
+            <li><a href="#">Conteúdo</a></li>
+            <li><a href="#">Depoimentos</a></li>
+            <li><a href="#">Cases de Alunos</a></li>
+            <li><a href="#">Whatsapp</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="value-proposition" class="container">
+        <div class="valign-wrapper" style="height:750px">
+          <div class="row">
+            <div class="col s12 m12 l7 xl7">
+              <div id="hero-title">
+                  <h1>Curso Desginer de Produto focado em UX/UI</h1>
+              </div>
+              <div id="hero-subtitle">
+                  <h5>Destaque-se no mercado com conhecimentos em Experiência do Usuário, 
+                  Estratégia de Negócios, Metodologias Ágeis, 
+                  Design de Interfaces Web/App e Softskills.</h5>
+              </div>
+              <div>
+                <a class="waves-effect waves-light btn-large pulse #f4ff81 lime accent-2">Lista de Espera</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-      <div id="value-proposition">
-          <div id="hero-title">
-              <h1>Curso Desginer de Produto focado em UX/UI</h1>
-          </div>
-          <div id="hero-subtitle">
-              <h5>Destaque-se no mercado com conhecimentos em Experiência do Usuário, 
-              Estratégia de Negócios, Metodologias Ágeis, 
-              Design de Interfaces Web/App e Softskills.</h5>
-          </div>
-          <div>
-            <a class="waves-effect waves-light btn-large pulse #f4ff81 lime accent-2">Lista de Espera</a>
-          </div>
-      </div>
-  </header>
+      <img data-src="assets/img/mapa.svg" class="mobile-only img-top" src="assets/img/mapa.svg">
+    </div>
+    </header>
   <section id="call-to-scroll">
-      <div>Veja as datas da sua cidade</div>
-      <div><i>Seta para baixo</i></div>
+      <div class="center-align">Veja as datas da sua cidade</div>
+      <div class="center-align"><i class="material-icons">keyboard_arrow_down</i></div>
   </section>
 
 <!-- Content -->
   <!-- Cities -->
-  <section id="cities">
+  <section id="cities" class="container">
 
-      <div id="cities-title">Na sua cidade, presencial e feito para você</div>
+      <div id="cities-title"><h4>Na sua cidade, presencial e feito para você</h4></div>
   
       <!-- First line -->
       <div class="row">
@@ -72,8 +85,10 @@
                 <p>Valor</p>
               </div>
               <div class="card-action">
-                <a class="btn" href="#">Lista de Espera</a>
-              </div>
+                <div class="row">
+                  <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+                </div>
+              </div> 
             </div>
           </div>
         
@@ -89,9 +104,10 @@
               <p>Valor</p>
             </div>
             <div class="card-action">
-              <a class="btn" href="#">Lista de Espera</a>
-            </div>
-          </div>
+              <div class="row">
+                <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+              </div>
+                 </div>       </div>
         </div>
         
       
@@ -106,9 +122,10 @@
               <p>Valor</p>
             </div>
             <div class="card-action">
-              <a class="btn" href="#">Lista de Espera</a>
-            </div>
-          </div>
+              <div class="row">
+                <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+              </div>
+                 </div>       </div>
         </div>
         
 
@@ -123,9 +140,10 @@
               <p>Valor</p>
             </div>
             <div class="card-action">
-              <a class="btn" href="#">Lista de Espera</a>
-            </div>
-          </div>
+              <div class="row">
+                <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+              </div>
+                 </div>       </div>
         </div>
       </div>
 
@@ -143,8 +161,10 @@
                 <p>Valor</p>
               </div>
               <div class="card-action">
-                <a class="btn" href="#">Lista de Espera</a>
-              </div>
+                <div class="row">
+                  <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+                </div>
+              </div> 
             </div>
           </div>
         
@@ -160,9 +180,10 @@
               <p>Valor</p>
             </div>
             <div class="card-action">
-              <a class="btn" href="#">Lista de Espera</a>
-            </div>
-          </div>
+              <div class="row">
+                <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+              </div>
+                 </div>       </div>
         </div>
         
       
@@ -177,9 +198,10 @@
               <p>Valor</p>
             </div>
             <div class="card-action">
-              <a class="btn" href="#">Lista de Espera</a>
-            </div>
-          </div>
+              <div class="row">
+                <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+              </div>
+                 </div>       </div>
         </div>
         
 
@@ -194,9 +216,10 @@
               <p>Valor</p>
             </div>
             <div class="card-action">
-              <a class="btn" href="#">Lista de Espera</a>
-            </div>
-          </div>
+              <div class="row">
+                <a href="#" class="btn waves-effect waves-light col s12">Lista de Espera</a>
+              </div>
+                 </div>       </div>
         </div>
       </div>
       
@@ -242,9 +265,10 @@
 
   <!-- Tabelo of contents -->
   <section id="table-of-contents">
+    <div class="container">
 
-      <div id="table-of-contents-title">O que você vai aprender em 2 dias intensos</div>
-      <div id="table-of-contents-subtitle">Esse curso de 16h tem conteúdos inéditos e tudo que há de melhor em todos os meus 10 cursos online somados! É mitológico!</div>
+      <div id="table-of-contents-title"><h4>O que você vai aprender em 2 dias intensos</h4></div>
+      <div id="table-of-contents-subtitle"><p>Esse curso de 16h tem conteúdos inéditos e tudo que há de melhor em todos os meus 10 cursos online somados! É mitológico!</p></div>
 
       <div id="table-of-contents-content">
 
@@ -286,12 +310,11 @@
                       <li>Interagir com desenvolvedores</li>
                       <li>Gerenciar roadmap de produto</li>
                       <li>Organizar e acompanhar projetos</li>
-                  </ul>
-                  
+                  </ul>  
               </div>
-          </div>
-
+          </div>    
       </div>
+    </div>
   </section>
 
   <!-- Stats -->
@@ -299,7 +322,7 @@
     <div id="stats-title">O que você vai aprender em 2 dias intensos</div>
       <div id="stats-subtitle">Esse curso de 16h tem conteúdos inéditos e tudo que há de melhor em todos os meus 10 cursos online somados! É mitológico!</div>
 
-      <div id="stats-content">
+      <div id="stats-content" class="container center-align">
 
           <div class="row">
               <div class="col s12 m4 l4 xl4">
@@ -315,7 +338,7 @@
             <div class="col s12 m4 l4 xl4">
               <div class="stats-content-title">+8000</div>
               
-              <div class="stats-content-subtitle">Avaliações 5 <i>estrela</i></div>
+              <div class="stats-content-subtitle">Avaliações 5 <i class="material-icons">star</i></div>
           </div>
 
           </div>
@@ -337,20 +360,20 @@
           <div class="col l4 s12">
             <h5 class="white-text">Os melhores cursos on-line</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Experiência do Usuário nos Negócios (11h)</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Design de Interfazes com foco em UX (32h)</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Usabilidade com Hotjar</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Prototipação e Styleguides em Figma</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Ver todos os cursos</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Experiência do Usuário nos Negócios (11h)</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Design de Interfazes com foco em UX (32h)</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Usabilidade com Hotjar</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Prototipação e Styleguides em Figma</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Ver todos os cursos</a></li>
             </ul>
           </div>
           <div class="col l3 s12">
             <h5 class="white-text">Conteúdos grátis</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Insta e Stories @uxunicornio</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Youtube UX Unicórnio</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Artigos sobre UX</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!"><i>icone</i>Conecte-se comigo no Linkedin</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Insta e Stories @uxunicornio</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Youtube UX Unicórnio</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Artigos sobre UX</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">open_in_new</i>Conecte-se comigo no Linkedin</a></li>
             </ul>
           </div>
 
