@@ -23,7 +23,7 @@
 ***********************************/
 
 body{
-
+        font-family: "Poppins";
 }
 
 
@@ -60,6 +60,15 @@ nav{
 
 }
 
+a.brand-logo{
+        font-size: 24px;
+        font-weight: 500px ;
+        font-family: "Poppins";
+}
+
+#value-proposition a{
+        color:#B633BF;
+}
 
 
 /***********************************
