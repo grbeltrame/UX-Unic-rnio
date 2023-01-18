@@ -24,6 +24,7 @@
 
 body{
         font-family: "Poppins";
+        color: #60495F;
 }
 
 ::selection{
@@ -53,6 +54,13 @@ h5{
     font-weight: 400;
     margin-bottom: 3px;
 }
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #60495F;
+    }
 
 /***********************************
         2.Header
@@ -90,11 +98,12 @@ header#hero{
 
 }
 
-#hero-title{
-
+header #hero-title h1{
+        margin-bottom: -10px;
 }
 
-#hero-subtitle{
+header #hero-subtitle h5{
+        margin-bottom: 16px;
 
 }
 
@@ -102,8 +111,14 @@ header#hero{
         color: #ff00af;
         font-size: 16px;
         font-weight: 600;
-
+        margin-top: 24px;
 }
+
+#call-to-scroll i{
+        font-size: 50px;
+        margin-top: -8px;
+}
+
 
 a.brand-logo{
         font-size: 24px;
@@ -111,8 +126,10 @@ a.brand-logo{
         font-family: "Poppins";
 }
 
+
 #value-proposition a{
         color:#B633BF;
+        font-weight: 600;
 }
 
 #value-proposition .col{
@@ -132,6 +149,24 @@ a.brand-logo{
 
 }
 
+.card-action {
+        padding: 16px 16px 1px 16px;
+}
+
+.card-action a{
+        background: #FE03B0;
+        color: #FFF;
+        font-weight: 400;
+        font-size: 16px;
+}
+
+.card-action a:hover{
+        background: #9A259F;
+        color: #FFF;
+        font-weight: 400;
+        font-size: 16px;
+}
+
 
 
 /***********************************
@@ -139,16 +174,17 @@ a.brand-logo{
 ***********************************/
 
 #table-of-contents{
-        background: #fff6ff;
+        background: #FFF6FF;
+        padding: 24px 0px;
+}
+
+#table-of-contents-title h4{
+        margin-bottom: -8px;
 
 }
 
-#table-of-contents-title{
-
-}
-
-#table-of-contents-subtitle{
-    
+#table-of-contents-subtitle p{
+        margin-bottom: 32px;   
 }
 
 #table-of-contents-content{
@@ -157,10 +193,21 @@ a.brand-logo{
 }
 
 .table-of-contents-content-title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+        padding: 16px 16px 0px 16px;
 
 }
 
 .table-of-contents-content-items{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: left;
+        padding: 0px 16px;
+        margin-left: 32px;
 
 }
 
@@ -173,6 +220,12 @@ a.brand-logo{
 ***********************************/
 
 #stats{
+        padding: 60px 0px;
+        background: url(../img/stats.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 100px;
+        background-size: 100% auto;
 
 }
 
@@ -190,10 +243,22 @@ a.brand-logo{
 }
 
 .stats-content-title{
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 90px;
+        color: #FE03B0;
+        text-shadow: 0px 0px 20px #ffffff;
+        padding-top: 32px;
 
 }
 
 .stats-content-subtitle{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #60495F;
+        padding-bottom: 32px;
 
 }
 
